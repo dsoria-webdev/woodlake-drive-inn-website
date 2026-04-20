@@ -1,2 +1,2 @@
 # woodlake-drive-inn-website
-This is the website intended for my local restaurant called the Woodlake Drive Inn
+My name is David Soria and this is the website intended for my local restaurant called the Woodlake Drive Inn. My project title is "Final Project - Woodlake Drive Inn Website." This restaurant serves a variety of American fast foods that can be eaten at the restaurant or on the go. I am building a new and complete website from sratch for my local restaurant, since it does not have a site of its own and only has a social media presence. I plan to incorperate HTML, CSS, and Bootstrap into the project to helo me create the website for the restaurant. 
