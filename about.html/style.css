@@ -1,0 +1,42 @@
+
+
+.text-center.title{
+font-family: 'Outfit', sans-serif;
+font-size: 40px; 
+font-weight: 700;
+}
+
+.text-center.intro{
+font-family: 'Public Sans', sans-serif;
+font-size: 16px; 
+font-weight: 400;
+}
+
+
+.custom-nav {
+background-color: #466937;
+}
+
+.btn {
+  background-color: #466937;
+  border: 1px solid #466937;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn.custom-btn{
+  background-color: #466937;
+  border-color: #466937;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #35552a; 
+  border-color: #35552a;
+}
+
+footer {
+font-family: 'Public Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+}

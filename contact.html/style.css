@@ -1,0 +1,48 @@
+
+.text-center.title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px; 
+    font-weight: 700;
+}
+
+.text-center.intro {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+.card-text {
+    font-size: 14px; 
+    font-weight: 400;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.custom-nav {
+    background-color: #466937;
+}
+
+.nav-item { /* Added dot here */
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+footer {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #0C5BAB;
+    border-color: #0C5BAB;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #094a8a;
+    border-color: #094a8a;
+}
