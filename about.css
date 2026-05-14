@@ -65,3 +65,26 @@ footer a:hover {
 .btn.custom-btn2:active {
   transform: scale(0.97);
 }
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel {
+    max-width: 75%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    .carousel {
+        max-width: 90%;
+    }
+
+    .carousel-img {
+        height: 300px;
+    }
+
+}
