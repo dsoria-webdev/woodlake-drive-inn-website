@@ -1,27 +1,85 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+[class*="col-"] {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
 
 .text-center.title {
     font-family: 'Outfit', sans-serif;
-    font-size: 40px; 
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .text-center.intro {
     font-family: 'Public Sans', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 400;
 }
 
-.card-text {
-    font-size: 14px; 
+span {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
     font-weight: 400;
 }
 
-.card-title {
-    font-weight: 600;
-}
 
 .custom-nav {
     background-color: #466937;
+}
+
+.nav-link {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f7d774 !important;
+    text-decoration: underline;
+}
+
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+
+.btn.custom-btn,
+.btn.custom-btn2 {
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .btn.custom-btn {
@@ -31,9 +89,10 @@
 }
 
 .btn.custom-btn:hover {
-    background-color: #35552a; 
+    background-color: #35552a;
     border-color: #35552a;
-    color: white; 
+    color: white;
+    transform: scale(1.03);
 }
 
 .btn.custom-btn2 {
@@ -45,89 +104,88 @@
 .btn.custom-btn2:hover {
     background-color: #094a8a;
     border-color: #094a8a;
+    transform: scale(1.03);
 }
 
-span {
-    font-family: 'Public Sans', sans-serif;
-    font-size: 16px; 
+
+
+.menu-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.menu-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.menu-item span {
+    font-size: 20px;
     font-weight: 400;
 }
 
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 180px;
+}
+
+
+
+
 footer {
+    width: calc(100% - 24px);
+    margin-left: 12px;
+    margin-right: 12px;
+    box-sizing: border-box;
     font-family: 'Public Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
 
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-.container {
-    padding-left: 20px; 
-    padding-right: 20px; 
-}
-
-.row {
-    margin-left: 0; 
-    margin-right: 0; 
-}
-
-[class*="col-"] {
-   padding-left: 8px;
-    padding-right: 8px; 
-}
-
-footer {
-    width: calc(100% - 24px); 
-    margin-left: 12px;
-    margin-right: 12px; 
-    box-sizing: border-box;
-}
-.nav-link {
-  transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #f7d774 !important;
-  text-decoration: underline;
-}
-
-.btn.custom-btn,
-.btn.custom-btn2 {
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.btn.custom-btn:hover,
-.btn.custom-btn2:hover {
-  transform: scale(1.03);
-}
-
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
-}
-
 footer a {
-  transition: color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
-  color: #f7d774 !important;
+    color: #f7d774 !important;
 }
 
-.card-text {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.6;
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
-.card-title {
-    font-size: 2rem;
-    font-weight: 700;
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .menu-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .menu-buttons {
+        width: 100%;
+    }
+
+    .menu-buttons .btn {
+        width: 100%;
+    }
 }
