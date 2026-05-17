@@ -11,3 +11,14 @@ Technology I used:
 - Bootstrap 5
 - JavaScript through Bootstrap components
 - GitHub Page
+  
+- Features of my website:
+- Responsive design for desktop and mobile devices
+- Working navigation bar across all pages
+- Functional hamburger menu on smaller screens
+- Bootstrap carousel slideshow on the About page
+- Styled call-to-action buttons
+- Hover effects for buttons, cards, links, and footer links
+- Organized HTML and CSS files
+- Footer with address, social links, DoorDash link, and contact link
+- Images with alt text for accessibility
