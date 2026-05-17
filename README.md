@@ -29,4 +29,5 @@ Features of my website:
 ![image alt](https://i.postimg.cc/P5Tb2Ctd/IMG-8230.jpg)
 
 David Soria
-May 17,2026
+
+May 17, 2026
