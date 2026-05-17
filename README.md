@@ -25,7 +25,7 @@ Features of my website:
 
 
 ![image alt](https://i.postimg.cc/L5QDrRvq/IMG-8196.png)
-![image alt](https://i.postimg.cc/L5QDrRvq/IMG-8196.png)
+![image alt](https://i.postimg.cc/ydskzZb4/IMG-8200.png)
 ![image alt](https://i.postimg.cc/P5Tb2Ctd/IMG-8230.jpg)
 
 David Soria
