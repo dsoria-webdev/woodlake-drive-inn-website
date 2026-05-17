@@ -22,3 +22,6 @@ Features of my website:
 - Organized HTML and CSS files
 - Footer with address, social links, DoorDash link, and contact link
 - Images with alt text for accessibility
+
+
+![image alt](https://i.postimg.cc/L5QDrRvq/IMG-8196.png)
