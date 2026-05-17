@@ -12,7 +12,7 @@ Technology I used:
 - JavaScript through Bootstrap components
 - GitHub Page
   
-- Features of my website:
+Features of my website:
 - Responsive design for desktop and mobile devices
 - Working navigation bar across all pages
 - Functional hamburger menu on smaller screens
